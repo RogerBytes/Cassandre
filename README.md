@@ -1,18 +1,6 @@
 # Cassandre
 
-Voici les liens pour s'y connecter :
-
--   nginx : 7840:80
--   cloudbeaver : 7841:8978
--   postgres : 7842:5432
--   mailer : 1025 et 8025
-
-```text
-http://localhost:7840
-http://localhost:7841
-```
-
-et on définit la variable de nom de projet
+Variable de nom de projet
 
 ```bash
 PROJECT_NAME="Cassandre"
@@ -126,6 +114,20 @@ On se connecte ainsi
 
 ```bash
 docker exec -it php_cassandre bash
+```
+
+## Liens
+
+Voici les liens pour s'y connecter :
+
+-   nginx : 7840:80
+-   cloudbeaver : 7841:8978
+-   postgres : 7842:5432
+-   mailer : 1025 et 8025
+
+```text
+http://localhost:7840
+http://localhost:7841
 ```
 
 ## Premières actions
