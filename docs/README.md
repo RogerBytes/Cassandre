@@ -90,11 +90,11 @@ Normalement CloudBeaver est prêt à être utilisé, il ne reste qu'à cliquer s
 1. Dans le tableau de bord, cliquez sur **New Connection** et cherchez "PostgreSQL".
 2. Créez une connexion PostgreSQL avec :
 
--   **Host** : `database` (il s'agit du nom du service `database:` dans le `compose.yml`)
--   **Port** : `5432` (le port "3851:5432")
--   **Database** : `blog` (il s'agit de la valeur dans le .yml POSTGRES_DB=blog )
--   **User name** : `root` (ce que j'ai stocké dans le .env dans notre cas)
--   **User password** : `root` (ce que j'ai stocké dans le .env dans notre cas)
+- **Host** : `database` (il s'agit du nom du service `database:` dans le `compose.yml`)
+- **Port** : `5432` (le port "3851:5432")
+- **Database** : `blog` (il s'agit de la valeur dans le .yml POSTGRES_DB=blog )
+- **User name** : `root` (ce que j'ai stocké dans le .env dans notre cas)
+- **User password** : `root` (ce que j'ai stocké dans le .env dans notre cas)
 
 Cocher `Save credentials for all users with access` puis `Create`.
 Après ça, vous pourrez explorer vos tables et données.
@@ -174,7 +174,3 @@ php bin/console make:controller pour faire d'autres controlleurs
 </div></details>
 
 <style>.spoiler{border-left:4px solid #1abc9c;border-bottom-left-radius:3px;padding-left:10px;padding-top:15px;margin-top:-10px;margin-bottom:15px}.button{cursor:pointer;padding:5px 10px;background-color:#3498db;color:white;border-radius:3px;margin-bottom:5px;display:inline-block;transition:background-color 0.2s}.button:hover{background-color:#217dbb}details[open] .button{background-color:#1abc9c}</style>
-
-* **Ronds pleins** : 🔴 🔵 🟢 🟡 🟠 🟣 ⚫ ⚪ 🟤
-* **Carrés colorés** : 🟥 🟦 🟩 🟨 🟧 🟪 🟫 ⬛ ⬜
-* **Petits ronds** : 🔵 🟢 🔴 🟡
