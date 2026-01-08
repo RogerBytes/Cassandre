@@ -120,10 +120,10 @@ docker exec -it php_cassandre bash
 
 Voici les liens pour s'y connecter :
 
--   nginx : 7840:80
--   cloudbeaver : 7841:8978
--   postgres : 7842:5432
--   mailer : 1025 et 8025
+- nginx : 7840:80
+- cloudbeaver : 7841:8978
+- postgres : 7842:5432
+- mailer : 1025 et 8025
 
 ```text
 http://localhost:7840
