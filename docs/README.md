@@ -168,3 +168,8 @@ php bin/console doctrine:schema:update --force
 php bin/console make:controller pour faire d'autres controlleurs
 
 </div></details>
+
+## Auteur
+
+[<img src="https://github.com/RogerBytes.png" width="40" height="40" style="border-radius:50%;" alt="Rogerbytes' avatar">](https://github.com/RogerBytes)  
+[**RogerBytes (Harry Richmond)**](https://github.com/RogerBytes)
