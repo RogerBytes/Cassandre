@@ -29,17 +29,17 @@ Règle générale: à chaque étape, l’application fonctionne, on vérifie, pu
 ### Phase 1 - Comprendre et préparer
 
 1. **Analyse du cahier des charges**
-    - But: comprendre ce qui est demandé, et surtout ce qui est hors périmètre de la V1.
-    - Livrable: liste des fonctionnalités retenues + règles de gestion simples (au format txt, md, docx ...).
+   - But: comprendre ce qui est demandé, et surtout ce qui est hors périmètre de la V1.
+   - Livrable: liste des fonctionnalités retenues + règles de gestion simples (au format txt, md, docx ...).
 2. **Création du dictionnaire des données**
-    - But: lister les informations à stocker (nom, type, obligatoire ou non) dans un format lisible et évolutif.
-    - Livrable: tableau des champs (ex: Client.nom, Audit.statut, Document.nomFichier, Facture.numero…).
+   - But: lister les informations à stocker (nom, type, obligatoire ou non) dans un format lisible et évolutif.
+   - Livrable: tableau des champs (ex: Client.nom, Audit.statut, Document.nomFichier, Facture.numero…).
 3. **Création du MCD**
-    - But: organiser les entités et leurs relations, sans parler de code.
-    - Livrable: MCD minimal cohérent avec la version simplifiée (voir PUML plus bas).
+   - But: organiser les entités et leurs relations, sans parler de code.
+   - Livrable: MCD minimal cohérent avec la version simplifiée (voir PUML plus bas).
 4. **Design Figma (maquettes simples)**
-    - But: visualiser les écrans pour éviter les retours en arrière.
-    - Livrable: maquettes des écrans essentiels: connexion, listes, formulaires, fiche audit, dépôt de document, facture.
+   - But: visualiser les écrans pour éviter les retours en arrière.
+   - Livrable: maquettes des écrans essentiels: connexion, listes, formulaires, fiche audit, dépôt de document, facture.
 
 ---
 
