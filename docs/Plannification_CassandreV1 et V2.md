@@ -249,7 +249,6 @@ class AuditParticipant {
    int id
    string roleDansAudit  "AUDITEUR | RESPONSABLE"
 }
-note for AuditParticipant "ceci est une entité d'association"
 
 class Audit {
    <<entity>>
