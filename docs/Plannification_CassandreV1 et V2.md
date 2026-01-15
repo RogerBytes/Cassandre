@@ -304,7 +304,7 @@ Facture "1" -- "1..*" LigneFacture : detaille
 
 </div></details>
 
-Pourquoi ce MCD “fonctionne” pour la planification:
+Pourquoi ce MCD “fonctionne” pour la planification :
 
 - CRUD clients + audits: **Client** et **Audit**
 - Auditeur: **Auditor** (plus simple à gérer que du “many-to-many” brut)
