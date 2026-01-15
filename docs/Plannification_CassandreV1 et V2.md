@@ -221,69 +221,77 @@ classDiagram
 %% ======= Entities =======
 
 class Role {
-  int id
-  string code "ADMIN | AUDITOR | EXAMINER | STAFF"
-  string libelle
+   <<entity>>
+   int id
+   string code "ADMIN | AUDITOR | EXAMINER | STAFF"
+   string libelle
 }
 
 class User {
-  int id
-  string email
-  string nomAffiche
-  string motDePasse
-  bool actif
+   <<entity>>
+   int id
+   string email
+   string nomAffiche
+   string motDePasse
+   bool actif
 }
 
 class Client {
-  int id
-  string raisonSociale
-  string emailContact
-  string telephoneContact
+   <<entity>>
+   int id
+   string raisonSociale
+   string emailContact
+   string telephoneContact
 }
 
 class AuditParticipant {
-  int id
-  string roleDansAudit  "AUDITEUR | RESPONSABLE"
+   <<associative entity>>
+   int id
+   string roleDansAudit  "AUDITEUR | RESPONSABLE"
 }
 note for AuditParticipant "ceci est une entité d'association"
 
 class Audit {
-  int id
-  string titre
-  string statut
-  date dateDebut
-  date dateFin
-  string description
+   <<entity>>
+   int id
+   string titre
+   string statut
+   date dateDebut
+   date dateFin
+   string description
 }
 
 class DocumentAudit {
-  int id
-  string type "PIECE | LETTRE_MISSION | MANDAT | RAPPORT"
-  string nomOriginal
-  string nomStockage
-  string chemin
-  string mimeType
-  int tailleOctets
-  datetime creeLe
+   <<entity>>
+   int id
+   string type "PIECE | LETTRE_MISSION | MANDAT | RAPPORT"
+   string nomOriginal
+   string nomStockage
+   string chemin
+   string mimeType
+   int tailleOctets
+   datetime creeLe
 }
 
 class Facture {
-  int id
-  string numero
-  string statut "BROUILLON | EMPRISE | PAYEE | ANNULEE"
-  date dateEmission
-  decimal totalHT
-  decimal totalTTC
-  string pdfChemin
+   <<entity>>
+   int id
+   string numero
+   string statut "BROUILLON | EMPRISE | PAYEE | ANNULEE"
+   date dateEmission
+   decimal totalHT
+   decimal totalTTC
+   string pdfChemin
 }
 
 class LigneFacture {
-  int id
-  string libelle
-  int quantite
-  decimal prixUnitaireHT
-  decimal tauxTVA
-  decimal totalLigneTTC
+   <<entity>>
+   int id
+   string libelle
+   int quantite
+   decimal prixUnitaireHT
+   decimal tauxTVA
+   decimal totalLigneTTC
 }
 
 %% ======= Relations =======
